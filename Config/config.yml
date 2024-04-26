@@ -8,7 +8,7 @@ libraries:
     - file: config/Movies/Seasonal.yml
     - file: config/Movies/Networks.yml
     overlay_files:
-    - pmm: mediastinger
+    - default: mediastinger
       template_variables:
         url: https://raw.githubusercontent.com/TheChrisK/PMM/main/overlays/bottom-left/mediastinger-bottom-left-notext.png
         vertical_align: bottom
@@ -27,8 +27,8 @@ libraries:
     - file: config/Movies/Seasonal.yml
     - file: config/Movies/Networks.yml
     overlay_files:
-    - pmm: resolution
-    - pmm: mediastinger
+    - default: resolution
+    - default: mediastinger
       template_variables:
         url: https://raw.githubusercontent.com/TheChrisK/PMM/main/overlays/bottom-left/mediastinger-bottom-left-notext.png
         vertical_align: bottom
@@ -47,7 +47,7 @@ libraries:
     - file: config/TV/Networks.yml
     overlay_files:
     - url: https://raw.githubusercontent.com/TheChrisK/PMM/main/overlays/Status.yml
-    - pmm: network
+    - default: network
       template_variables:
         horizontal_align: left
         horizontal_offset: 0
