@@ -66,17 +66,17 @@ collections:
       name: Director
       person: 2636
       poster: https://theposterdb.com/api/assets/160913
-  Coen Brothers:
-    template:
-      name: Brothers
-      person1: 1223
-      person2: 1224
-      poster: https://theposterdb.com/api/assets/202034
-  Wes Anderson:
-    template:
-      name: Director
-      person: 5655
-      poster: https://theposterdb.com/api/assets/62576
+  # Coen Brothers:
+  #   template:
+  #     name: Brothers
+  #     person1: 1223
+  #     person2: 1224
+  #     poster: https://theposterdb.com/api/assets/202034
+  # Wes Anderson:
+  #   template:
+  #     name: Director
+  #     person: 5655
+  #     poster: https://theposterdb.com/api/assets/62576
 
 ###########################
 #   Studio Collections    #
@@ -99,14 +99,31 @@ collections:
     imdb_list: https://www.imdb.com/list/ls538267100/
     url_poster: https://theposterdb.com/api/assets/83871
     sort_title: +DC Universe
+  # Plex Popular:
+  #   tautulli_popular:
+  #     list_days: 30
+  #     list_size: 20
+  #   tautulli_watched:
+  #     list_days: 30
+  #     list_size: 20
+  #   sync_mode: sync
+  #   summary: Movies Popular on Plex
+  #   collection_order: alpha
+  #   sort_title: +Plex Popular
   
 ###########################
 #    Movie Collections    #
 ###########################
+  A Quiet Place:
+    template: {name: Collection, collection: 521226, movie: "762441", poster: https://theposterdb.com/api/assets/47340}
   Addams Family:
     template: {name: Collection, collection: "11716, 750822", poster: https://theposterdb.com/api/assets/72170}
+  American Pie:
+    template: {name: Collection, collection: 2806, poster: https://theposterdb.com/api/assets/5167}
   Austin Powers:
     template: {name: Collection, collection: 1006, poster: https://theposterdb.com/api/assets/13969}
+  Annabelle:
+    template: {name: Collection, collection: 402074, poster: https://theposterdb.com/api/assets/163821}
   AvP:
     template: {name: Collection, collection: 115762, poster: https://theposterdb.com/api/assets/26354} 
   Pirates of the Caribbean:
@@ -141,6 +158,10 @@ collections:
     template: {name: Collection, collection: "313086,968052", poster: https://theposterdb.com/api/assets/66285}
   Curious George:
     template: {name: Collection, collection: 55428, poster: https://theposterdb.com/api/assets/202715}
+  Da Vinci Code:
+    template: {name: Collection, collection: 115776, poster: https://theposterdb.com/api/assets/94417}
+  Deadpool:
+    template: {name: Collection, collection: 448150, movie: "567604,558144", poster: https://theposterdb.com/api/assets/32318}
   Die Hard:
     template: {name: Movie, collection: 1570, poster: https://theposterdb.com/api/assets/15956}
   Dirty Harry:
@@ -218,13 +239,20 @@ collections:
   The Mummy:
     template: {name: Movie, collection: 1733, poster: https://theposterdb.com/api/assets/1041}
     sort_title: Mummy
+  The Muppets:
+    template: {name: Collection, collection: 256377, movie: "10208,11899,826914,20910,27190,13352,11176,10874,10437", poster: https://theposterdb.com/api/assets/6716}
+    sort_title: Muppets  
   The Neverending Story:
     template: {name: Collection, collection: 91430, poster: https://theposterdb.com/api/assets/23606}
     sort_title: Neverending Story
   Night at the Museum:
     template: {name: Collection, collection: 85943, poster: https://theposterdb.com/api/assets/83452}
+  PAW Patrol:
+    template: {name: Collection, collection: 893731, movie: "384401, 486678, 1232096, 430844, 552095, 743439, 624620, 991833, 792337, 358599, 510379, 634531, 523402, 651407, 774604, 444107, 833049, 921042, 426220, 543211, 1144214, 1172741, 1236423, 371264, 520127, 453694, 874010, 699464, 654140, 1223524, 459431, 491521, 386492, 1047702, 494882, 945983, 829080, 591586, 929534, 429882, 545539, 1022526, 586664, 1236392, 792328, 1033165, 1047708, 468555, 354510, 482965, 1234489, 929532, 586666, 591585, 1129237", poster: https://theposterdb.com/api/assets/171224}
   Predator:
     template: {name: Collection, collection: 399, poster: https://theposterdb.com/api/assets/243}
+  Planet of the Apes:
+    template: {name: Collection, collection: 173710, poster: https://theposterdb.com/api/assets/97354}
   Rambo:
     template: {name: Collection, collection: 5039, poster: https://theposterdb.com/api/assets/164821}
   Rocky:
@@ -240,7 +268,7 @@ collections:
   Star Wars:
     template: {name: Collection, movie: "348350,330459", collection: "10", poster: https://theposterdb.com/api/assets/39137}
   Superman:
-    template: {name: Movie, collection: 8537, poster: https://theposterdb.com/api/assets/79614}
+    template: {name: Movie, collection: 8537, poster: https://theposterdb.com/api/assets/251168}
   Taken:
     template: {name: Collection, collection: 135483, poster: https://theposterdb.com/api/assets/112816}
   Teenage Mutant Ninja Turtles:
@@ -258,6 +286,6 @@ collections:
   X:
     template: {name: Movie, collection: 950289, poster: https://theposterdb.com/api/assets/283655}
   X-Men:
-    template: {name: Movie, collection: 748, poster: https://theposterdb.com/api/assets/20}
+    template: {name: Movie, collection: 748, movie: "2080,263115,340102,76170", poster: https://theposterdb.com/api/assets/20}
   xXx:
     template: {name: Collection, collection: 52785, poster: https://theposterdb.com/api/assets/5503}
