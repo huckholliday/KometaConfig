@@ -120,7 +120,7 @@ collections:
   Jurassic Park:
     template: {name: Movie, collection: 328, summary: 328, poster: https://theposterdb.com/api/assets/45080}
   Harry Potter:
-    template: {name: Movie, collection: 1241, summary: 1241, poster: https://theposterdb.com/api/assets/1867}
+    template: {name: Movie, collection: 1241, movie: 899082, summary: 1241, poster: https://theposterdb.com/api/assets/1867}
   Alien:
     template: {name: Movie, collection: 8091, poster: https://theposterdb.com/api/assets/1213}
   Back to the Future:
@@ -244,8 +244,8 @@ collections:
     template: {name: Collection, collection: 173710, poster: https://theposterdb.com/api/assets/97354}
   Rambo:
     template: {name: Collection, collection: 5039, poster: https://theposterdb.com/api/assets/164821}
-  Rocky:
-    template: {name: Collection, collection: 1575, poster: https://theposterdb.com/api/assets/163422}
+  Rocky/Creed:
+    template: {name: Collection, collection: "1575, 553717", poster: https://theposterdb.com/api/assets/163422}
   Scream:
     template: {name: Movie, collection: 2602, poster: https://theposterdb.com/api/assets/804}
   Shrek:
