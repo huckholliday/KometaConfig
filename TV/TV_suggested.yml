@@ -51,40 +51,30 @@ templates:
       limit: 200
 
 collections:
-  # Plex Popular:
-  #   tautulli_popular:
-  #     list_days: 30
-  #     list_size: 20
-  #   tautulli_watched:
-  #     list_days: 30
-  #     list_size: 20
-  #   sync_mode: sync
-  #   summary: TV Shows Popular on Plex
-  #   collection_order: alpha
-  # "Random TV shows":
-  #   summary: Random selection of TV shows
-  #   url_poster: https://raw.githubusercontent.com/0x5f3/pmm-config/assets/assets/suggested/random.png
-  #   visible_library: true
-  #   schedule: daily
-  #   template: {
-  #                   name: plex,
-  #                   num: 0
-  #                   }
-  #   smart_filter:
-  #     all:
-  #       year.gte: 1980
-  #     sort_by: random
-  #     limit: 250
+  "Random TV Shows":
+    summary: Random selection of TV shows
+    url_poster: https://raw.githubusercontent.com/0x5f3/pmm-config/assets/assets/suggested/random.png
+    visible_library: true
+    schedule: daily
+    template: {
+                    name: plex,
+                    num: 0
+                    }
+    smart_filter:
+      all:
+        year.gte: 1980
+      sort_by: random
+      limit: 250
 
-  # "Trending TV shows":
-  #   summary: TV shows trending across the internet
-  #   url_poster: https://raw.githubusercontent.com/0x5f3/pmm-config/assets/assets/suggested/trending.png
-  #   schedule: daily
-  #   template: {
-  #                   name: trakt,
-  #                   num: 1
-  #                   }
-  #   trakt_chart:
-  #     chart: trending
-  #     time_period: daily
-  #     limit: 50
+  "Trending TV Shows":
+    summary: TV shows trending across the internet
+    url_poster: https://raw.githubusercontent.com/0x5f3/pmm-config/assets/assets/suggested/trending.png
+    schedule: daily
+    template: {
+                    name: trakt,
+                    num: 1
+                    }
+    trakt_chart:
+      chart: trending
+      time_period: daily
+      limit: 50

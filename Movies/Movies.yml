@@ -66,17 +66,6 @@ collections:
       name: Director
       person: 2636
       poster: https://theposterdb.com/api/assets/160913
-  # Coen Brothers:
-  #   template:
-  #     name: Brothers
-  #     person1: 1223
-  #     person2: 1224
-  #     poster: https://theposterdb.com/api/assets/202034
-  # Wes Anderson:
-  #   template:
-  #     name: Director
-  #     person: 5655
-  #     poster: https://theposterdb.com/api/assets/62576
 
 ###########################
 #   Studio Collections    #
@@ -99,17 +88,17 @@ collections:
     imdb_list: https://www.imdb.com/list/ls538267100/
     url_poster: https://theposterdb.com/api/assets/83871
     sort_title: +DC Universe
-  # Plex Popular:
-  #   tautulli_popular:
-  #     list_days: 30
-  #     list_size: 20
-  #   tautulli_watched:
-  #     list_days: 30
-  #     list_size: 20
-  #   sync_mode: sync
-  #   summary: Movies Popular on Plex
-  #   collection_order: alpha
-  #   sort_title: +Plex Popular
+  Plex Popular:
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+    sync_mode: sync
+    summary: Movies Popular on Plex
+    collection_order: alpha
+    sort_title: +Plex Popular
   
 ###########################
 #    Movie Collections    #
